@@ -6,7 +6,7 @@ st.set_page_config(page_title="美股期权大单扫描", layout="wide")
 
 st.title("🦅 美股期权异动分析网页版")
 
-ticker = st.text_input("输入股票代码 (如 AAPL, TSLA, NVDA)", value="NVDA").upper()
+ticker = st.text_input("输入股票代码 (如 AAPL, TSLA, NVDA)", value="ORCL").upper()
 
 if ticker:
     try:
